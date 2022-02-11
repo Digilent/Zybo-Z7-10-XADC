@@ -1,6 +1,8 @@
 Zybo Z7-10 XADC Demo
 ==============
   
+**Note:** The demo contained in this repository has been moved and this repository is no longer being actively maintained. Check out the [Zybo Z7 XADC demo](https://digilent.com/reference/programmable-logic/zybo-z7/demos/xadc) page on Digilent Reference for more information.
+
 Description
 --------------
 This project is a Vivado demo using the Zybo Z7-10 analog-to-digital converter ciruitry and LEDs, written in Verilog. When programmed onto the board, voltage levels between 0 and 1 Volt are read off of the JXADC header. Each XADC channel will control the brightness of an LED as shown in the following table. See the Zybo Z7-10's [Reference Manual](https://reference.digilentinc.com/reference/programmable-logic/zybo-z7/reference-manual) for more information about how the ZYNQ FPGA's XADC is connected to header JXADC.
